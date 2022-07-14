@@ -9,6 +9,14 @@ class About extends Me
 {
     public const pronouns = [ 'he', 'him' ];
     
+    public function currentWork(): array
+      {
+          return [
+              'company'    => 'Heaven Space',
+              'position'   => 'CEO',
+          ];
+      }
+    
     public function getKnowledge(): array
     {
         return [
